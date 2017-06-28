@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Eat Club Filter",
+  "description": "Filter menu in Eat Club",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "https://www.eatclub.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.eatclub.com/invite/*"
+      ],
+      "css": [
+        "mystyles.css"
+      ],
+      "js": [
+        "myscript.js"
+      ]
+    }
+  ]
+}
