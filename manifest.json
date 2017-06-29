@@ -3,6 +3,9 @@
   "name": "Eat Club Filter",
   "description": "Filter menu in Eat Club",
   "version": "1.0",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
   "permissions": [
     "tabs",
     "https://www.eatclub.com/*"
